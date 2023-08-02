@@ -1,0 +1,45 @@
+.section2{
+    margin-left: 7.5%;
+    margin-top: 21px;
+}
+
+.formStyle{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.inputStyle{
+    border-color: #6C6A6A;
+    border-width: 1px;
+    border-radius: 8px;
+    width: 90.5%;
+    height: 47px;
+    padding-left: 16px;
+    
+}
+
+.passwordForgot{
+    margin-top: 8px;
+    font-size: 13px;
+    padding-left: 51.5%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.login{
+    width: 90%;
+    height: 48px; 
+    font-size: 18px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #2EA5E1;
+    color: white;
+}
+.loginStyle{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

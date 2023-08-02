@@ -1,0 +1,16 @@
+.section1{
+    display: flex;
+    flex-flow: column;
+    margin-left: 7.5%;
+    height: 89px;
+    justify-content: space-between;
+}
+.presentationTitle{
+    font-size: 21px;
+    margin-bottom: unset;
+}
+
+.presentationText{
+    font-size: 17px;
+    margin-top: unset;
+}
