@@ -1,0 +1,11 @@
+.break{
+    display: flex;
+    align-items: center;
+    margin-top: 53px;
+}
+
+.line{
+    width: 105px;
+    height: 0px;
+    margin-top: 15px;
+}
