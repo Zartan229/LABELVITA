@@ -1,4 +1,4 @@
-.cardMeeting{
+.cardMeetingOpacity{
     margin-left: 7.5%;
     border-radius: 5px;
     background-color: #A0C73E;
@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: space-between;
     padding-right: 2%;
+    opacity: 0.5;
 }
 .cardMeetingCollumn{
     display: flex;
