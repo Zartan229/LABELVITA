@@ -1,0 +1,31 @@
+.cardMeeting{
+    margin-left: 7.5%;
+    border-radius: 5px;
+    background-color: #A0C73E;
+    height: 212px;
+    width: 85%;
+    margin-top: 9px;
+    display: flex;
+    padding-left: 18px;
+    align-items: center;
+    position: absolute;
+    justify-content: space-between;
+    padding-right: 2%;
+}
+.cardMeetingCollumn{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 184px;
+    gap: 8px;
+}
+.cardMeetingPlace{
+    height: 57px;
+    background-color: white;
+    width: 228px;
+}
+.cardMeetingDate{
+    color: white;
+    font-size: 22px;
+}
+
