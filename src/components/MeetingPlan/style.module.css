@@ -28,6 +28,7 @@
 .cardMeetingPlaceAddress{
     margin-top: unset;
     margin-bottom: unset;
+    font-weight: 600;
 }
 .cardMeetingPlaceTime{
     margin-top: 5px;

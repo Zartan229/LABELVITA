@@ -24,7 +24,7 @@ export default function Social() {
         </defs>
       </svg>
       <div className={classes.socialLink}><img className={classes.socialImg}src={Google}/><img className={classes.socialImg} src={Facebook}/><img className={classes.socialImg} src={Apple}/> </div>
-      <p className={classes.socialAccount}>Vous n'êtes pas inscrit ? <a className={classes.socialAccountLink} href="#">Créer un compte</a></p>
+      <p className={classes.socialAccount}>Vous n'êtes pas inscrit ? <a className={classes.socialAccountLink} href="./agenda">Créer un compte</a></p>
     </section>
   );
 }
