@@ -2,7 +2,7 @@
     display: flex;
     flex-flow: column;
     margin-left: 7.5%;
-    height: 89px;
+    height: 85px;
     justify-content: space-between;
 }
 .presentationTitle{
