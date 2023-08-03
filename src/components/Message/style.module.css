@@ -1,8 +1,19 @@
 .messageSection{
     background: linear-gradient(180deg, #EFEFEF 0%, rgba(239, 239, 239, 0.00) 100%);
-    padding-top: 18px;
+    padding-top: 19px;
     display: flex;
     flex-direction: column;
     gap: 10px;
     margin-top: 19px;
+}
+.messageImage{
+    position: absolute;
+    top: 37.5%;
+    z-index: -1;
+}
+
+.messageImageBottom{
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
 }
