@@ -1,5 +1,5 @@
 import HeaderArrow from "../components/HeaderArrow/index.jsx"
-
+import Search from "../components/Search/index.jsx"
 
 
 let title;
@@ -20,6 +20,7 @@ else
   return (
     <> 
     <HeaderArrow title={title}/>
+    <Search/>
     </>
   );
 }

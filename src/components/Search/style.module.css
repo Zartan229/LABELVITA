@@ -1,0 +1,40 @@
+.sectionSearch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.searchLoop {
+  position: absolute;
+  top: 15%;
+  left: 11%;
+}
+.inputSearch {
+  margin-left: 7.5%;
+  border-width: 0px;
+  margin-top: 27px;
+  background-color: #d9d9d94d;
+  border-radius: 8px;
+  height: 47px;
+  width: 84%;
+  padding-left: 45px;
+}
+.rowSearch {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 17px;
+  margin-left: 4%;
+  margin-right: 3%;
+}
+.searchTag {
+    background: rgba(217, 217, 217, 0.30);
+  width: 100px;
+  height: 47px;
+  border-radius: 8px;
+  display: flex;
+  font-size: 14px;
+  
+  justify-content: space-evenly
+}
+.imageTag{
+    width: 18px;
+}
