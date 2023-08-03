@@ -17,17 +17,17 @@ export default function Search() {
       </svg>
       <input className={classes.inputSearch} type="search" placeholder="Prénom, nom..." />
       <div className={classes.rowSearch}>
-        <a href="#" className={classes.searchTag}>
+        <a href="#" className={classes.searchTagBlue}>
           <img className={classes.imageTag} src={chatBox} />
-          <p>zdqzd</p>
+          <p>Tous</p>
         </a>
         <a href="#" className={classes.searchTag}>
           <img className={classes.imageTag} src={chatIcon} />
-          <p>zdqzd</p>
+          <p>Non lus</p>
         </a>
         <a href="#" className={classes.searchTag}>
           <img className={classes.imageTag} src={suitCase} />
-          <p>zdqzd</p>
+          <p>Archivés</p>
         </a>
       </div>
     </section>

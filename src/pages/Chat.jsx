@@ -1,6 +1,6 @@
 import HeaderArrow from "../components/HeaderArrow/index.jsx"
 import Search from "../components/Search/index.jsx"
-
+import Message from "../components/Message/index.jsx"
 
 let title;
 var str = window.location.href;
@@ -21,6 +21,7 @@ else
     <> 
     <HeaderArrow title={title}/>
     <Search/>
+    <Message/>
     </>
   );
 }

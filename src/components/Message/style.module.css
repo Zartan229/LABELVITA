@@ -1,0 +1,8 @@
+.messageSection{
+    background: linear-gradient(180deg, #EFEFEF 0%, rgba(239, 239, 239, 0.00) 100%);
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 19px;
+}
