@@ -1,6 +1,6 @@
 import HeaderArrow from "../components/HeaderArrow/index.jsx";
 import ChatBox from "../components/Conv/index.jsx";
-import Send from "../components/Send/index.jsx"
+import Send from "../components/Send/index.jsx";
 
 let title = "";
 var str = window.location.href;
