@@ -18,6 +18,7 @@ export default function Mail() {
     <>
       <HeaderArrow title={title} />
       <ChatBox />
+      <Send />
     </>
   );
 }
