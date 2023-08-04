@@ -1,6 +1,5 @@
 import classes from "./style.module.css";
-import image from "../../images/pfp1.png"
-
+import image from "../../images/pfp1.png";
 
 export default function ChatBox() {
   return (
@@ -9,25 +8,25 @@ export default function ChatBox() {
         <p>26/05/23</p>
       </div>
       <div className={classes.chatOutBox}>
-        <div className={classes.chatOutFlex}>
-            <img src={image} className={classes.chatOutImage}/>
-            <p className={classes.chatOutText}>Bonjour, pouvez-vous m’appeler ?</p>
+        <div className={classes.chatFlex}>
+          <img src={image} className={classes.chatImage} />
+          <p className={classes.chatText}>Bonjour, pouvez-vous m’appeler ?</p>
         </div>
-        <p className={classes.chatOutTime}>11:29</p>
+        <p className={classes.chatTime}>11:29</p>
       </div>
       <div className={classes.chatInBox}>
-        <div className={classes.chatInFlex}>
-            <img src={image} className={classes.chatInImage}/>
-            <p className={classes.chatInText}>Bonjour, je vous contacte dans 1h, ok pour vous ?</p>
+        <div className={classes.chatFlex}>
+          <img src={image} className={classes.chatImage} />
+          <p className={classes.chatText}>Bonjour, je vous contacte dans 1h, ok pour vous ?</p>
         </div>
-        <p className={classes.chatInTime}>11:50</p>
+        <p className={classes.chatTime}>11:50</p>
       </div>
-        <div className={classes.chatOutBox}>
-        <div className={classes.chatOutFlex}>
-            <img src={image} className={classes.chatOutImage}/>
-            <p className={classes.chatOutText}>C’est parfait !</p>
+      <div className={classes.chatOutBox}>
+        <div className={classes.chatFlex}>
+          <img src={image} className={classes.chatImage} />
+          <p className={classes.chatText}>C’est parfait !</p>
         </div>
-        <p className={classes.chatOutTime}>11:29</p>
+        <p className={classes.chatTime}>11:29</p>
       </div>
     </section>
   );

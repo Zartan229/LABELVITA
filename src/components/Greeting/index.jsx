@@ -1,4 +1,4 @@
-import classes from './style.module.css'
+import classes from "./style.module.css";
 
 export default function Greeting() {
   return (
@@ -8,6 +8,3 @@ export default function Greeting() {
     </section>
   );
 }
-
-
-

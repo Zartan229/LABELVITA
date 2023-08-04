@@ -1,41 +1,40 @@
-.cardMeetingOpacity{
-    margin-left: 7.5%;
-    border-radius: 5px;
-    background-color: #A0C73E;
-    height: 212px;
-    width: 85%;
-    margin-top: 9px;
-    display: flex;
-    padding-left: 4.5%;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 2%;
-    opacity: 0.5;
+.cardMeetingOpacity {
+  margin-left: 7.5%;
+  border-radius: 5px;
+  background-color: #a0c73e;
+  height: 212px;
+  width: 85%;
+  margin-top: 9px;
+  display: flex;
+  padding-left: 4.5%;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 2%;
+  opacity: 0.5;
 }
-.cardMeetingCollumn{
-    display: flex;
-    flex-direction: column;
-    height: 184px;
-    gap: 8px;
+.cardMeetingCollumn {
+  display: flex;
+  flex-direction: column;
+  height: 184px;
+  gap: 8px;
 }
-.cardMeetingPlace{
-    height: 57px;
-    background-color: white;
-    width: 228px;
-    border-radius: 5px;
-    padding-top: 5%;
-    padding-left: 8%;
+.cardMeetingPlace {
+  height: 57px;
+  background-color: white;
+  width: 228px;
+  border-radius: 5px;
+  padding-top: 5%;
+  padding-left: 8%;
 }
-.cardMeetingPlaceAddress{
-    margin-top: unset;
-    margin-bottom: unset;
+.cardMeetingPlaceAddress {
+  margin-top: unset;
+  margin-bottom: unset;
 }
-.cardMeetingPlaceTime{
-    margin-top: 5px;
-    font-size: 12px;
+.cardMeetingPlaceTime {
+  margin-top: 5px;
+  font-size: 12px;
 }
-.cardMeetingDate{
-    color: white;
-    font-size: 22px;
+.cardMeetingDate {
+  color: white;
+  font-size: 22px;
 }
-

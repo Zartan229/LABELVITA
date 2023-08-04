@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes , Route} from "react-router-dom";
 import './App.css';
-import Home from './pages/LogSign'
+import Log from './pages/LogSign'
 import Agenda from './pages/Agenda'
 import Chat from './pages/Chat'
 import Mail from './pages/Mail'
@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/" element={<Log/>} />
            <Route path="/agenda" element={<Agenda/>}   />          
            <Route path="/chat" element={<Chat/>}  />
           <Route path="/mail" element={<Mail />} />

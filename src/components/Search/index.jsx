@@ -1,7 +1,7 @@
 import classes from "./style.module.css";
 import chatBox from "../../images/chatSmall.svg";
-import suitCase from "../../images/suitcase.svg"
-import chatIcon from "../../images/chat.svg"
+import suitCase from "../../images/suitcase.svg";
+import chatIcon from "../../images/chat.svg";
 
 export default function Search() {
   return (

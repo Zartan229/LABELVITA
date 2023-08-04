@@ -4,17 +4,13 @@ import Greeting from "../components/Greeting/index.jsx"
 import Form from "../components/Form/index.jsx"
 import Social from "../components/Social/index.jsx"
 
-export default function Home() {
+export default function Log() {
   return (
     <> 
     <Banner image={image}/>
     <Greeting/>
     <Form/>
     <Social/>
-      { /* <Header/>
-     
-      <Housing />
-      <Footer />*/}
     </>
   );
 }

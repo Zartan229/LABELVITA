@@ -1,48 +1,48 @@
-.iconCard{
-    height: 84px;
-    background-color: white;
-    border-width: 10px;
-    margin-left: 5.5%;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 88%;
-    z-index: 2;
+.iconCard {
+  height: 84px;
+  background-color: white;
+  border-width: 10px;
+  margin-left: 5.5%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 88%;
+  z-index: 2;
 }
-.iconCardImageFlex{
-    display: flex;
-    gap: 18px;
+.iconCardImageFlex {
+  display: flex;
+  gap: 18px;
 }
-.iconCardImage{
-    width: 35px;
-    height: 31px;
-    border-radius: 20px;
-    margin-top: 4px;
-    margin-left: 13px;
+.iconCardImage {
+  width: 35px;
+  height: 31px;
+  border-radius: 20px;
+  margin-top: 4px;
+  margin-left: 13px;
 }
-.iconCardImageTextFlex{
-    display: flex;
-    flex-direction: column;
-    margin-top: unset;
-    margin-bottom: unset;
-    gap: 9px;
+.iconCardImageTextFlex {
+  display: flex;
+  flex-direction: column;
+  margin-top: unset;
+  margin-bottom: unset;
+  gap: 9px;
 }
-.iconCardImageTextTitle{
-    margin-top: unset;
-    margin-bottom: unset;
-    font-weight: bold;
-    font-size: 15px;
+.iconCardImageTextTitle {
+  margin-top: unset;
+  margin-bottom: unset;
+  font-weight: bold;
+  font-size: 15px;
 }
 
-.iconCardImageText{
-    margin-top: unset;
-    margin-bottom: unset;
-    font-size: 12px;
+.iconCardImageText {
+  margin-top: unset;
+  margin-bottom: unset;
+  font-size: 12px;
 }
-.iconCardImageTime{
-    margin-top: -35px;
-    margin-bottom: unset;
-    margin-right: 20px;
-    font-size: 12px;
+.iconCardImageTime {
+  margin-top: -35px;
+  margin-bottom: unset;
+  margin-right: 20px;
+  font-size: 12px;
 }

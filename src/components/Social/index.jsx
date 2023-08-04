@@ -1,7 +1,7 @@
 import classes from "./style.module.css";
-import Google from "../../images/google.svg"
-import Facebook from "../../images/Group.svg"
-import Apple from "../../images/Vector.svg"
+import Google from "../../images/google.svg";
+import Facebook from "../../images/Group.svg";
+import Apple from "../../images/Vector.svg";
 
 export default function Social() {
   return (
@@ -23,8 +23,17 @@ export default function Social() {
           </linearGradient>
         </defs>
       </svg>
-      <div className={classes.socialLink}><img className={classes.socialImg}src={Google}/><img className={classes.socialImg} src={Facebook}/><img className={classes.socialImg} src={Apple}/> </div>
-      <p className={classes.socialAccount}>Vous n'êtes pas inscrit ? <a className={classes.socialAccountLink} href="./agenda">Créer un compte</a></p>
+      <div className={classes.socialLink}>
+        <img className={classes.socialImg} src={Google} />
+        <img className={classes.socialImg} src={Facebook} />
+        <img className={classes.socialImg} src={Apple} />{" "}
+      </div>
+      <p className={classes.socialAccount}>
+        Vous n'êtes pas inscrit ?{" "}
+        <a className={classes.socialAccountLink} href="./agenda">
+          Créer un compte
+        </a>
+      </p>
     </section>
   );
 }

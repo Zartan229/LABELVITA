@@ -1,80 +1,55 @@
-.Chatbox{
-    font-size: 16px;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    margin-top: 12px;
-    margin-bottom: 15px;
+.Chatbox {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 15px;
 }
 
-.chatOutBox{
-    border-radius: 8px;
-    background-color: #E3FFD3;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 61px;
-    width: 81%;
-    margin-left: 15%;
-
+.chatOutBox {
+  border-radius: 8px;
+  background-color: #e3ffd3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 61px;
+  width: 81%;
+  margin-left: 15%;
 }
-.chatOutFlex{
-    display: flex;
-    align-items: center;
-    gap: 12px;
+.chatFlex {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
-.chatOutImage{
-    border-radius: 53px;
-    width: 35px;
-    height: 35px;
-    margin-left: 13px;
+.chatImage {
+  border-radius: 53px;
+  width: 35px;
+  height: 35px;
+  margin-left: 13px;
 }
-.chatOutText{
-    font-size: 14px;
-    margin-top: unset;
-    margin-bottom: unset;
-    width: 58%;
-}
-
-
-.chatOutTime{
-    font-size: 12px;
-    margin-right: 13px;
+.chatText {
+  font-size: 14px;
+  margin-top: unset;
+  margin-bottom: unset;
+  width: 58%;
 }
 
-
-.chatInBox{
-    border-radius: 8px;
-    background: linear-gradient(180deg, #E9E9E9 0%, rgba(216, 216, 216, 0.31) 100%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 74px;
-    width: 80%;
-    margin-left: 4%;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.chatInFlex{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-.chatInImage{
-    border-radius: 53px;
-    width: 35px;
-    height: 35px;
-    margin-left: 13px;
-}
-.chatInText{
-    font-size: 14px;
-    margin-top: unset;
-    margin-bottom: unset;
-    width: 58%;
+.chatTime {
+  font-size: 12px;
+  margin-right: 13px;
 }
 
-
-.chatInTime{
-    font-size: 12px;
-    margin-right: 13px;
+.chatInBox {
+  border-radius: 8px;
+  background: linear-gradient(180deg, #e9e9e9 0%, rgba(216, 216, 216, 0.31) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 74px;
+  width: 80%;
+  margin-left: 4%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
+
