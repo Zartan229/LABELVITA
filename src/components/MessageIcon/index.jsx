@@ -5,7 +5,7 @@ import Image from "../../images/pfp1.png"
 export default function MessageIcon() {
   return (
 
-    <div className={classes.iconCard}>
+    <a href='./mail' className={classes.iconCard}>
         <div  className={classes.iconCardImageFlex}>
         <img className={classes.iconCardImage} src={Image}/>
         <div  className={classes.iconCardImageTextFlex}>
@@ -15,6 +15,6 @@ export default function MessageIcon() {
         </div>
         </div>
         <p className={classes.iconCardImageTime}>11:29</p>
-    </div>
+    </a>
   );
 }
