@@ -1,5 +1,6 @@
 import classes from "./style.module.css";
 import MessageIcon from "../MessageIcon/index.jsx";
+import MessageIconIndex from "../MessageIconIndex/index.jsx";
 
 export default function Messagez() {
   return (
@@ -16,7 +17,7 @@ export default function Messagez() {
           </linearGradient>
         </defs>
       </svg>
-      <MessageIcon />
+      <MessageIconIndex />
       <MessageIcon />
       <MessageIcon />
       <MessageIcon />

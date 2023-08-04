@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: space-between;
     width: 88%;
-    z-index: 3;
+    z-index: 2;
 }
 .iconCardImageFlex{
     display: flex;
